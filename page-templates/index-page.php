@@ -25,7 +25,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     <a href="#" class="btn btn-primary">Get Started</a>
                 </div>
                 <div class="col-md-6">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/hero.svg" alt="Illustration of person sitting at laptop with headphones on.">
+                    <img src="https://res.cloudinary.com/djoe/image/upload/v1609204918/LaslesVPN/hero_fq0vog.svg" alt="Illustration of person sitting at laptop with headphones on.">
                 </div>
             </div>
             <div class="row stat-boxes rounded p-4">
