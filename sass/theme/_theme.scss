@@ -1,0 +1,269 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+/* --------------  -------------- */
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+/* -------------- Header Start -------------- */
+
+#wrapper-navbar {
+    margin-top: 50px;
+
+    #main-nav {
+
+        .navbar-brand {
+
+            img {
+
+                width: 149px;
+            }
+        }
+
+        .nav-signinbtns {
+            font-weight: 500;
+        }
+
+        .navbar-collapse {
+            margin-top: 10px;
+            position: relative;
+
+            .text-primary {
+                .nav-link {
+                    color: $primary;
+                }
+            }
+
+            .signin {
+                margin-top: 10px;
+            }
+
+            .signin:before {
+                content: "";
+                position: absolute;
+                width: 30%;
+                height: 1px;
+                background: black;
+                left: 50%;
+                transform: translate(-50%, -5px);
+                margin-bottom: 0.5rem;
+            }
+
+            .signup {
+                border: 1px solid $primary;
+                padding: 0.25rem 1rem;
+                margin-top: 0.2rem;
+
+                a {
+                    color: $primary;
+                }
+            }
+
+            @media (max-width:$lg) {
+                #main-menu {
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
+
+/* -------------- Header End -------------- */
+
+
+
+/* -------------- Home Page Template Start -------------- */
+
+#home {
+
+    .hero {
+        margin-top: 80px;
+
+        .stat-boxes {
+            text-align: center;
+            margin: 85px 0;
+            box-shadow: 0px 120px 100px 100px $grey-300;
+
+            .feature-box {
+
+                span {
+                    display: block;
+                    font-size: 20px;
+
+                    @media (max-width:$xl) {
+                        font-size: 18px;
+                    }
+
+                    &:first-of-type {
+                        font-size: 25px;
+
+                        @media (max-width:$xl) {
+                            font-size: 23px;
+                        }
+                    }
+                }
+
+                .fa {
+                    background-color: $primary-100;
+                    height: 55px;
+                    width: 55px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .features {
+        margin-top: 130px;
+    }
+
+    .pricing {
+        margin-top: 130px;
+        background-color: $grey-100;
+
+        .price {
+            margin-top: 40px;
+        }
+
+        .price-card {
+            flex-basis: 31.5% !important;
+
+            .price {
+                font-size: 25px;
+                color: $grey-900;
+
+                .font-weight-bold {
+                    color: $black;
+                }
+            }
+        }
+    }
+
+    .map {
+
+        .logos {
+
+            img {
+                width: 150px;
+                height: auto;
+            }
+        }
+    }
+
+    .testimonials {
+
+        .testimonial-slider {
+
+            .testimonial-slide {
+
+                &:focus {
+                    outline: none;
+                }
+
+                .profile-img {
+                width: 50px;
+                }
+
+                .profile-text {
+                    flex-grow: 1;
+                }
+
+                .testimonial-text {
+                    margin-bottom: 0;
+                }
+            }
+
+            .slick-dots {
+                list-style: none;
+                display: flex;
+                margin-top: 60px;
+
+                li {
+                    button {
+                        height: 20px;
+                        width: 20px;
+                        border: 0;
+                        background-color: $grey-500;
+                        border-radius: 50%;
+                        color: transparent;
+                        transition: ease 0.3s all;
+                        cursor: pointer;
+                        &:focus-visible {
+                            outline: none;
+                        }
+                    }
+                    &:not(:first-of-type) {
+                        margin-left: 0.5rem;
+                    }
+                }
+
+                li.slick-active {
+                    button {
+                        background-color: $primary;
+                        width: 65px;
+                        border-radius: 30px;
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+                }
+            }
+
+            .slick-arrow {
+                position: absolute;
+                bottom: 0%;
+                transform: translateY(-5%);
+                cursor: pointer;
+            }
+
+            .slick-prev {
+                right: 90px;
+            }
+
+            .slick-next {
+                right: 20px;
+            }
+        }
+    }
+}
+
+/* -------------- Home Page Template End -------------- */
+
+/* -------------- Footer Start -------------- */
+
+.footer {
+    background-color: $grey-300;
+    margin-top: 150px;
+
+    .newsletter {
+        transform: translateY(-50%);
+    }
+
+    .social-holder {
+
+        i {
+            width: 35px;
+            height: 35px;
+        }
+    }
+
+    .logo {
+        width: 149px;
+    }
+
+    .footer-menus {
+        .text-dark {
+            a {
+                color: inherit;
+            }
+        }
+        .menu-item {
+            &:not(:first-of-type) {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+/* -------------- Footer End -------------- */
+

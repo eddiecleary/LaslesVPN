@@ -1,0 +1,29 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from src/sass/bootstrap4/_variables.scss, paste it here and edit the value.
+
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+$primary: #F53838;
+$primary-100: #FFECEC;
+$black: #0B132A;
+$dark: #4F5665;
+$grey-900: #97a3be;
+$grey-500: #DDE0E4;
+$grey-300: #F8F8F8;
+$grey-100: #FBFBFB;
+$navbar-light-color: $dark;
+$navbar-nav-link-padding-y: 0.75rem;
+$navbar-nav-link-padding-x: 1rem;
+$btn-font-weight: 500;
+$border-width: 2px;
+$input-btn-padding-x: 2.3rem;
+$input-btn-padding-x-sm: 2.3rem;
+$input-btn-padding-x-lg: 2.3rem;
+$input-btn-padding-y: 0.6rem;
+$input-btn-padding-y-sm: 0.6rem;
+$input-btn-padding-y-lg: 0.6rem;
