@@ -30,6 +30,7 @@ defined( 'ABSPATH' ) || exit;
         <section class="footer-menus">
             <div class="row">
                 <div class="col-lg-3">
+                    <?php the_custom_logo(); ?>
                     <img class="logo mb-3" src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="LaslesVPN Logo">
                     <p class="mb-4"><span class="font-weight-bold">LaslesVPN</span> is a private virtual network that has unique features and has high security.</p>
                     <div class="social-holder d-flex mb-3">
