@@ -57,7 +57,7 @@ $container = get_theme_mod( 'understrap_container_type' );
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">.
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/features.svg" alt="Illustration of person sitting at laptop with celebration fireworks in the background.">
+                    <img src="https://res.cloudinary.com/djoe/image/upload/v1609204918/LaslesVPN/features_vlxzyp.svg" alt="Illustration of person sitting at laptop with celebration fireworks in the background.">
                 </div>
                 <div class="col-lg-4 offset-1 mt-5">
                     <h3 class="text-capitalize">We provide Many Features You Can Use</h3>
@@ -81,7 +81,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 </div>
                 <div class="row col-12 mt-5 justify-content-between">
                     <div class="border border-grey rounded bg-white p-4 text-center price-card">
-                        <img class="mb-3" src="<?php echo get_template_directory_uri(); ?>/img/pricing.svg" alt="Illustration of a box opening with fireworks blasting out of it.">
+                        <img class="mb-3" src="https://res.cloudinary.com/djoe/image/upload/v1609204918/LaslesVPN/pricing_j5ebag.svg" alt="Illustration of a box opening with fireworks blasting out of it.">
                         <h4 class="my-4">Free Plan</h4>
                         <ul class="list-unstyled text-left d-inline-block">
                             <li class="text-capitalize mt-3"><i class="fa fa-check text-success mr-4"></i>Unlimited bandwidth</li>
@@ -93,7 +93,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <a href="#" class="btn btn-outline-primary rounded-pill">Select</a>
                     </div>
                     <div class="border border-grey rounded bg-white p-4 text-center price-card">
-                        <img class="mb-3" src="<?php echo get_template_directory_uri(); ?>/img/pricing.svg" alt="Illustration of a box opening with fireworks blasting out of it.">
+                        <img class="mb-3" src="https://res.cloudinary.com/djoe/image/upload/v1609204918/LaslesVPN/pricing_j5ebag.svg" alt="Illustration of a box opening with fireworks blasting out of it.">
                         <h4 class="my-4">Standard Plan</h4>
                         <ul class="list-unstyled text-left d-inline-block">
                             <li class="text-capitalize mt-3"><i class="fa fa-check text-success mr-4"></i>Unlimited bandwidth</li>
@@ -105,7 +105,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <a href="#" class="btn btn-outline-primary rounded-pill">Select</a>
                     </div>
                     <div class="border border-primary rounded bg-white p-4 text-center price-card">
-                        <img class="mb-3" src="<?php echo get_template_directory_uri(); ?>/img/pricing.svg" alt="Illustration of a box opening with fireworks blasting out of it.">
+                        <img class="mb-3" src="https://res.cloudinary.com/djoe/image/upload/v1609204918/LaslesVPN/pricing_j5ebag.svg" alt="Illustration of a box opening with fireworks blasting out of it.">
                         <h4 class="my-4">Premium Plan</h4>
                         <ul class="list-unstyled text-left d-inline-block">
                             <li class="text-capitalize mt-3"><i class="fa fa-check text-success mr-4"></i>Unlimited bandwidth</li>
@@ -126,13 +126,13 @@ $container = get_theme_mod( 'understrap_container_type' );
                 <div class="col text-center">
                     <h3>Huge Global Network <br> of Fast VPN</h3>
                     <p class="w-50 mx-auto mt-4">See <span class="font-weight-bold">LaslesVPN</span> everywhere to make it easier for you when you move locations.</p>
-                    <img class="mt-5 pt-5 w-75" src="<?php echo get_template_directory_uri(); ?>/img/map.svg" alt="Illustration of a world map showing the location of Lasles VPN servers all over the world.">
+                    <img class="mt-5 pt-5 w-75" src="https://res.cloudinary.com/djoe/image/upload/v1609204918/LaslesVPN/map_dhnovu.svg" alt="Illustration of a world map showing the location of Lasles VPN servers all over the world.">
                     <div class="row logos align-items-center justify-content-around w-100 my-5">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/netflix.png" alt="netflix logo">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/reddit.png" alt="reddit logo">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/amazon.png" alt="amazon logo">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/discord.png" alt="discord logo">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/spotify.png" alt="spotify logo">
+                        <img src="https://res.cloudinary.com/djoe/image/upload/v1609204918/LaslesVPN/netflix_cttgas.png" alt="netflix logo">
+                        <img src="https://res.cloudinary.com/djoe/image/upload/v1609204918/LaslesVPN/reddit_yq7lbm.png" alt="reddit logo">
+                        <img src="https://res.cloudinary.com/djoe/image/upload/v1609204917/LaslesVPN/amazon_cvbt8o.png" alt="amazon logo">
+                        <img src="https://res.cloudinary.com/djoe/image/upload/v1609204918/LaslesVPN/discord_xodr5c.png" alt="discord logo">
+                        <img src="https://res.cloudinary.com/djoe/image/upload/v1609204919/LaslesVPN/spotify_rnovab.png" alt="spotify logo">
                     </div>
                 </div>
             </div>
@@ -149,7 +149,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     <div class="border border-grey rounded testimonial-slide mx-2">
                         <div class="inner-slide p-3">
                             <div class="d-flex align-items-center">
-                                <img class="mr-3 profile-img" src="<?php echo get_template_directory_uri(); ?>/img/profile-1.jpg" alt="Profile photo">
+                                <img class="mr-3 profile-img" src="https://res.cloudinary.com/djoe/image/upload/v1609204918/LaslesVPN/profile-1_hehx3e.jpg" alt="Profile photo">
                                 <div class="profile-text d-flex flex-column">
                                     <span class="d-block font-weight-bold">Viezh Robert</span>
                                     <span class="d-block small">Warsaw, Poland</span>
@@ -164,7 +164,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     <div class="border border-grey rounded testimonial-slide mx-2">
                         <div class="inner-slide p-3">
                             <div class="d-flex align-items-center">
-                                <img class="mr-3 profile-img" src="<?php echo get_template_directory_uri(); ?>/img/profile-2.jpg" alt="Profile photo">
+                                <img class="mr-3 profile-img" src="https://res.cloudinary.com/djoe/image/upload/v1609204919/LaslesVPN/profile-2_nhk5s0.jpg" alt="Profile photo">
                                 <div class="profile-text d-flex flex-column">
                                     <span class="d-block font-weight-bold">Yessica Christy</span>
                                     <span class="d-block small">Shanxi, China</span>
@@ -179,7 +179,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     <div class="border border-grey rounded testimonial-slide mx-2">
                         <div class="inner-slide p-3">
                             <div class="d-flex align-items-center">
-                                <img class="mr-3 profile-img" src="<?php echo get_template_directory_uri(); ?>/img/profile-3.jpg" alt="Profile photo">
+                                <img class="mr-3 profile-img" src="https://res.cloudinary.com/djoe/image/upload/v1609204919/LaslesVPN/profile-3_afputv.jpg" alt="Profile photo">
                                 <div class="profile-text d-flex flex-column">
                                     <span class="d-block font-weight-bold">Kim Young Jou</span>
                                     <span class="d-block small">Seoul, South Korea</span>
@@ -194,7 +194,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     <div class="border border-grey rounded testimonial-slide mx-2">
                         <div class="inner-slide p-3">
                             <div class="d-flex align-items-center">
-                                <img class="mr-3 profile-img" src="<?php echo get_template_directory_uri(); ?>/img/profile-3.jpg" alt="Profile photo">
+                                <img class="mr-3 profile-img" src="https://res.cloudinary.com/djoe/image/upload/v1609204919/LaslesVPN/profile-3_afputv.jpg" alt="Profile photo">
                                 <div class="profile-text d-flex flex-column">
                                     <span class="d-block font-weight-bold">Kim Young Jou</span>
                                     <span class="d-block small">Seoul, South Korea</span>
