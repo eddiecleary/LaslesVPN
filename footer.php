@@ -90,7 +90,7 @@ defined( 'ABSPATH' ) || exit;
             slidesToShow: 3,
             slidesToScroll: 1,
             dots: true,
-            autoPlay: true,
+            autoplay: true,
             autoplaySpeed: 2000,
             nextArrow: `<svg class="slick-next" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="30" cy="30" r="29" transform="rotate(-180 30 30)" fill="#F53838" stroke="#F53838" stroke-width="2"/>
