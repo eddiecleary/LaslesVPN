@@ -42,23 +42,3 @@ if ( class_exists( 'Jetpack' ) ) {
 foreach ( $understrap_includes as $file ) {
 	require_once $understrap_inc_dir . $file;
 }
-add_action('wp_head', 'fouc_protect_against');
-/**
- * Combat FOUC in WordPress
- * @link https://stackoverflow.com/questions/3221561/eliminate-flash-of-unstyled-content
- */
-function fouc_protect_against () {
-    ?>
-        <style type="text/css">
-            .hidden {display:none;}
-        </style>
-        <script type="text/javascript">
-         jQuery('html').addClass('hidden');
-
-	 jQuery(document).ready(function($) {
-	    $('html').removeClass('hidden');
-	 });
-        </script>
-    <?php
-
-}
